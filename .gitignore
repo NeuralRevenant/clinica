@@ -21,6 +21,7 @@ yarn-error.log*
 .DS_Store
 
 # Build
+backend/dist/
 backend-node/build/
 frontend/build/
 
@@ -31,3 +32,10 @@ logs/
 # Testing
 coverage/
 .nyc_output/
+
+# Security - Never commit these
+*.pem
+*.key
+*.cert
+secrets/
+.secrets/
